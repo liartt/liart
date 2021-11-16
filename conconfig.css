@@ -1,0 +1,238 @@
+/* Configuração para computador desktop */
+
+* {
+    margin: 0;
+}
+div.topo{
+    display: flex;
+    width: 100%;
+    height:18vh;
+    background-color: hsl(0, 66%, 80%);
+}
+.logo{  
+    margin-left:3%;
+    margin-top: 10px;
+    width: 12vw;
+    height: 50%;
+    display: flex;
+    min-width: 8vw;
+}
+.contato{
+    height: 50%;
+     width: 15vw;
+    background-color: #b4756b;
+    margin-left:40%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.sobre{
+    height: 50%;
+    width: 12vw;
+    background-color: #b4756b;
+    margin-left:15%;
+    margin-top:30px;
+    border-radius: 10px;
+}
+.rodape{
+    background-color:hsl(0, 66%, 80%);
+    width: 100%;
+    height: 25vh;  
+    margin-top: 170px; 
+    display:flex;
+}
+.botao{
+        height: 15%;
+        width: 23vw;
+        background-color: #b4756b;
+        margin-left:37.8vw;
+        margin-top: 30px;
+        border-color: rgb(160, 89, 89);
+        border-radius: 10px;
+        border-style:groove;
+        border-width: 8px;
+}
+a:hover, a:link{
+    text-decoration: none;
+    color: inherit;
+}
+p.pzinho{
+    font-family: 'Dancing Script', 'sans-serif';text-align: center;padding-top: 6px; font-size:x-large; color: rgb(230, 230, 230);
+}
+p.titulo{
+    font-family: 'Style Script', cursive;text-align: center;padding-top: 5vh; font-size:xx-large;
+}
+p.pzao{
+    font-family: 'Dancing Script', 'sans-serif'; text-align: center;padding-top: 18px; font-size:xx-large; color: rgb(230, 230, 230);
+}
+.logorod{
+    margin-left:10%;
+    margin-top:40px;
+    width: 8vw;
+    height: 60%;
+}
+.social{
+    margin-top:40px;
+    margin-left:60vw;
+    width: 8vw;
+    height: 60%;
+}
+.social1{
+    margin-top:40px;
+    margin-left:60px;
+    width: 8vw;
+    height: 60%;
+}
+.insta{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+}
+.camera{
+    height: 100px;
+    width: 100px;
+}
+.deviantart{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin-top: 25px;
+}
+/* Configuração para tablet - 900px */
+
+@media only screen and (max-width:900px){
+    div.topo{
+        display: flex;
+        width: 100%;
+        height:15vh;
+        background-color: hsl(0, 66%, 80%);
+    }
+    .logo{  
+        width: 16vw;
+        margin:2.5vw;
+        height: 50%;
+        margin-top:0px;
+    }
+    .contato{
+        height: 50%;
+        width: 20vw;
+        background-color: #b4756b;
+        margin:2.5vw;;
+        margin-left: 29vw;
+        border-radius: 7px;
+    }    
+    .sobre{
+        height: 50%;
+        width: 18vw;
+        background-color: #b4756b;
+        margin:2.5vw;
+        margin-left: 8vw;
+        border-radius: 7px;
+    }
+    .rodape{
+        background-color: hsl(0, 66%, 80%);
+        height: 20vh;
+        margin-top:40px;
+    }
+    .botao{
+        height: 12%;
+        width: 26.3vw;
+        margin-left:33.8vw;
+    }
+    p.pzinho{
+        padding-top: 0px;
+    }
+    p.pzao{
+        padding-left: 2px;font-size: 150%;
+    }
+    .logorod{
+    margin-left:10%;
+    margin-top:30px;
+    width: 90%;
+    height: 60%;
+    }
+    .social{
+        margin-top:30px;
+        margin-left:55vw;
+        width: 8vw;
+        height: 60%;
+    }
+    .social1{
+        margin-top:30px;
+        margin-left:60px;
+        width: 8vw;
+        height: 60%;
+    }
+}
+/* Configuração para celular - tela até 600 px */
+
+@media only screen and (max-width:600px){
+    div.topo{
+        display: flex;
+        width: 100%;
+        height:12vh;
+        background-color: hsl(0, 66%, 80%);
+    }
+    .logo{
+        margin-left: 1.5%;
+        margin-top: 2.5vh;
+        width: 100px;
+        height: 50%;
+    }
+    .contato{
+        height: 50%;
+        width: 24vw;
+        background-color: #b4756b;
+        margin-left:40%;
+        border-radius: 3px;
+        margin-top: 2.5vh;
+    }
+    .lua{
+        height: 40px;
+    }
+    .sobre{
+        height: 50%;
+        width: 18vw;
+        background-color: #b4756b;
+        margin-left:10%;
+        margin-top:15px;
+        border-radius: 3px;
+    }
+    .rodape{
+        background-color: hsl(0, 66%, 80%);
+        margin-top:50px;
+     }
+ 
+     p.pzinho{
+         padding-top: 2px;
+         font-size:medium;
+     }
+     .botao{
+         height: 13%;
+         width: 45.3vw;
+         margin-left:23.8vw;
+     }
+     p.pzao{
+         padding-bottom: 20px;font-size: 170%;
+     }
+     .logorod{
+         margin-left:10%;
+         margin-top:30px;
+         width: 80%;
+         height: 60%;
+     }
+     .social{
+         margin-top:30px;
+         margin-left:35vw;
+         width: 14vw;
+         height: 60%;
+     }
+     .social1{
+         margin-top:30px;
+         margin-left:60px;
+         width: 14vw;
+         height: 60%;
+     }
+ }
